@@ -1,5 +1,5 @@
 #!/bin/bash
 
 mkdir /home/kirill/Документы/text.txt
-echo hello world >> /home/kirill/Документы/text.txt
+echo hello_world >> /home/kirill/Документы/text.txt
 df -h
