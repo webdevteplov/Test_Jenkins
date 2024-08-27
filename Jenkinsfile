@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Execute Script') {
             steps {
-                sh './script.sh'
+                sh 'sh script.sh'
             }
         }
     }
