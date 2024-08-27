@@ -1,3 +1,9 @@
 pipeline {
-    sh script.sh
+    agent any
+
+    stage('Execute Script') {
+        steps {
+            sh './script.sh'
+        }
+    }
 }
