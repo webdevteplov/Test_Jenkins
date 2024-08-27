@@ -1,1 +1,3 @@
-./script
+pipeline {
+    sh script.sh
+}
