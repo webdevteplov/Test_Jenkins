@@ -1,8 +1,7 @@
 #!/bin/bash
 
-chmod g+x /home/kirill/Документы/
-cd /home/kirill/Документы/
+#cd /home/kirill/Документы/
 rm text
 touch text
-echo "$Message" >> /home/kirill/Документы/text
+echo "$Message" >> text
 df -h
